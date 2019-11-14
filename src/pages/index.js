@@ -1,22 +1,30 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Logo from "../images/logo.png"
 import { Container } from "../components/layoutComponents"
 import SEO from "../components/seo"
+import Button from "../components/button"
 
 const IndexPage = () => (
   <Layout>
     <Container>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-      <Link to="/page-2/">Go to page 2</Link>
+      <p style={{ textAlign: "center", maxWidth: 440 }}>
+        Cancer research focused on developing inmmunotherapies
+    </p>
+    <Button style={{textAlign:"center"}}>Read Our Research</Button>
+    <div
+      style={{
+        backgroundImage: `url(${Logo})`,
+        position: "Fixed",
+        align: "center",
+        top: 0,
+        zIndex: -5,
+        height: "100vh",
+        width: "100vw",
+        opacity: 0.2,
+      }}
+    />
     </Container>
   </Layout>
 )

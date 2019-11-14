@@ -3,12 +3,13 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 import { Container } from "./layoutComponents"
+import Image from "../components/image"
 
 const Header = ({ siteTitle, className }) => (
   <header className={className}>
     <Container>
       <h1>
-        <Link to="/">{siteTitle}</Link>
+        <div to="/" style={{ textAlign: "center", maxWidth: 200 }}><Image />{siteTitle}</div>
       </h1>
     </Container>
   </header>
@@ -23,12 +24,11 @@ Header.defaultProps = {
 }
 
 const StyledHeader = styled(Header)`
-  color: var(--white);
-  background: var(--primary-color);
-  padding: 1rem 0;
+  color: var(--black);
   margin-bottom: 1rem;
   h1 {
-    margin: 0;
+    display: block;
+    margin: 0 auto;
   }
 `
 

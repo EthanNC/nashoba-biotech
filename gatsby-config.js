@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter w/ styled-components`,
+    title: `Nashoba Biotech`,
     description: `Gatsby starter using styled-components`,
     author: `@blakenoll`,
   },

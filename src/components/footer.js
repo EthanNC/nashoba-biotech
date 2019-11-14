@@ -1,21 +1,23 @@
 import React from "react"
 import styled from "styled-components"
-import { Container } from "./layoutComponents"
+import { Row } from "./layoutComponents"
+import {GRADIENT} from "./constants"
 
 const Footer = ({ className }) => (
   <footer className={className}>
-    <Container>
-      © {new Date().getFullYear()}, Built with
+    <Row>
+      © {new Date().getFullYear()}
       {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
-    </Container>
+      Nashoba Biotech LLC 
+    </Row>
   </footer>
 )
 
 const StyledFooter = styled(Footer)`
-  color: #fffaff;
-  background: var(--primary-color);
+  color: black;
+  background: ${GRADIENT};
   padding: 1rem 0;
+  width: 100vw;
 `
 
 export default StyledFooter
