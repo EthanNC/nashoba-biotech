@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from "gatsby"
 import { MainWrapper } from "./layoutComponents"
 import Header from "./header"
 import Footer from "./footer"
-
+import Logo from "../images/logo.png"
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -22,6 +22,18 @@ const Layout = ({ children }) => (
         
         <MainWrapper>
           <Header siteTitle={data.site.siteMetadata.title} />
+          <div
+      style={{
+        backgroundImage: `url(${Logo})`,
+        position: "Fixed",
+        align: "center",
+        top: 0,
+        zIndex: -5,
+        height: "100vh",
+        width: "100vw",
+        opacity: 0.2,
+      }}
+    />
           <main>{children}</main>
           <Footer />
         </MainWrapper>

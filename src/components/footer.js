@@ -6,7 +6,7 @@ import {GRADIENT} from "./constants"
 const Footer = ({ className }) => (
   <footer className={className}>
     <Row>
-      <p>Nashoba Biotechnology, LLC </p>
+      <p style={{margin:"auto"}}>Nashoba Biotechnology, LLC </p>
     </Row>
   </footer>
 )
@@ -16,7 +16,8 @@ const StyledFooter = styled(Footer)`
   background: #E5F1DC;
   padding: 1rem 0;
   width: 100vw;
-  margin: auto
+  margin: auto;
+  font-size: 12px;
 `
 
 export default StyledFooter

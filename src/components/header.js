@@ -8,8 +8,9 @@ import Image from "../components/image"
 const Header = ({ siteTitle, className }) => (
   <header className={className}>
     <Container>
+      <div className="logo"><Image/></div>
       <h1>
-        <div to="/" style={{ textAlign: "center", maxWidth: 400 }}><Image />{siteTitle}</div>
+        {siteTitle}
       </h1>
     </Container>
   </header>
@@ -29,6 +30,13 @@ const StyledHeader = styled(Header)`
   h1 {
     display: block;
     margin: 0 auto;
+    text-align: center;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
   }
 `
 
