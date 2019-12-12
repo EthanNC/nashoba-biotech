@@ -6,18 +6,17 @@ import {GRADIENT} from "./constants"
 const Footer = ({ className }) => (
   <footer className={className}>
     <Row>
-      © {new Date().getFullYear()}
-      {` `}
-      Nashoba Biotech LLC 
+      <p>Nashoba Biotechnology, LLC </p>
     </Row>
   </footer>
 )
 
 const StyledFooter = styled(Footer)`
   color: black;
-  background: ${GRADIENT};
+  background: #E5F1DC;
   padding: 1rem 0;
   width: 100vw;
+  margin: auto
 `
 
 export default StyledFooter

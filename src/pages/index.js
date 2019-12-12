@@ -5,13 +5,14 @@ import { Container, Row, Column} from "../components/layoutComponents"
 import SEO from "../components/seo"
 import Button from "../components/button"
 import Founder from "../components/founder"
+import downloadFile from '../../static/Nashoba-BioTech-Overview.pdf'
 
 const IndexPage = () => (
   <Layout>
     <Container>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <p style={{ textAlign: "center", maxWidth: 440 }}>
-        Cancer research focused on developing inmmunotherapies
+        Cancer research focused on developing immunotherapies
       </p>
     <div
       style={{
@@ -26,19 +27,22 @@ const IndexPage = () => (
       }}
     />
     <div style={{ textAlign: "center", maxWidth: 440 }}>
-      <Button>Read Our Research</Button>
+      <Button href={downloadFile}>
+        Read Our Research
+      </Button>
+
     </div>
-    <div style={{ textAlign: "center", maxWidth: 440, margin: "25px 50px"}}>
+    <div style={{ textAlign: "center", maxWidth: 440}}>
     <h2>Founders</h2>
-    {/* <Row> 
+    <Row> 
       <Column>
         <Founder/>
       </Column>
       <Column>
-        Founder 2
+        <Founder/>
       </Column>
-    </Row> */}
-    <Founder/>
+    </Row>
+
     </div>
     </Container>
   </Layout>

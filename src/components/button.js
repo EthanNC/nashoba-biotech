@@ -12,6 +12,7 @@ const Button = ({ children }) => (
       borderRadius: BORDER_RADIUS,
       borderWidth: 0,
       cursor: "pointer",
+      margin:"2rem auto",
     }}
   >
     {children}

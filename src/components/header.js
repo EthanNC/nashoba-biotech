@@ -9,7 +9,7 @@ const Header = ({ siteTitle, className }) => (
   <header className={className}>
     <Container>
       <h1>
-        <div to="/" style={{ textAlign: "center", maxWidth: 200 }}><Image />{siteTitle}</div>
+        <div to="/" style={{ textAlign: "center", maxWidth: 400 }}><Image />{siteTitle}</div>
       </h1>
     </Container>
   </header>
