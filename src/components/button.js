@@ -13,6 +13,7 @@ const Button = ({ children }) => (
       borderWidth: 0,
       cursor: "pointer",
       margin:"2rem auto",
+      textShadow: " 2px 2px 4px #000000"
     }}
   >
     {children}

@@ -48,7 +48,7 @@ const IndexPage = () => (
     </Row>
 
     <Row> 
-        <Founder name="Jeremy P. Carver" title="Chair, BoD" image={JC} link="https://www.linkedin.com/in/patrick-michaud-2489a126/"/>
+        <Founder name="Jeremy P. Carver" title="Chair, BoD" image={JC} link="https://www.linkedin.com/in/jeremy-carver-441a696/"/>
     </Row>
  
 
