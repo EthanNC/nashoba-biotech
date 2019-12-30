@@ -1,5 +1,4 @@
 import React from 'react'
-import Avatar from '../images/avatar.png'
 import LI from '../images/LI.png'
 import styled from "styled-components"
 import { Container } from "./layoutComponents"
