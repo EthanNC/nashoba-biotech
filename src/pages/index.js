@@ -43,12 +43,11 @@ const IndexPage = () => (
       margin:"2rem auto",
       textShadow: " 2px 2px 4px #000000"
     }}>
+<p>Immunotherapies are revolutionizing cancer treatment and outcomes. Approved drugs targeting the immune status of the tumor are already commanding billion-dollar markets. This latest evolution in this class of drugs has been termed “Immunotherapy 2.0” by the American Society of Clinical Oncology and features a set of therapies known as immune checkpoint inhibitors (ICIs). These drugs reactivate anti-tumor immune responses, for example “releasing the brakes” on T-cells in the suppressive environment of a tumor. Most significantly, ICIs have achieved clinical results rarely seen before in cancer therapy: long term survival that is remarkably durable in patients with a wide variety of tumors. However, only a fraction of treated patients achieved these durable responses -generally only 20 to 30%. As a result, a major effort is underway to increase this fraction of durably responding patients by combining ICIs with other drugs whose mechanisms of action are complementary </p>
 <figure>
 <img style={{margin:0, borderRadius: '10px'}} src={image5}/>
 <figcaption>placeholder caption</figcaption>
 </figure>
-<p>Immunotherapies are revolutionizing cancer treatment and outcomes. Approved drugs targeting the immune status of the tumor are already commanding billion-dollar markets. This latest evolution in this class of drugs has been termed “Immunotherapy 2.0” by the American Society of Clinical Oncology and features a set of therapies known as immune checkpoint inhibitors (ICIs). These drugs reactivate anti-tumor immune responses, for example “releasing the brakes” on T-cells in the suppressive environment of a tumor. Most significantly, ICIs have achieved clinical results rarely seen before in cancer therapy: long term survival that is remarkably durable in patients with a wide variety of tumors. However, only a fraction of treated patients achieved these durable responses -generally only 20 to 30%. As a result, a major effort is underway to increase this fraction of durably responding patients by combining ICIs with other drugs whose mechanisms of action are complementary </p>
-
       </div>
       <div     style={{
       padding: ".5rem 2.5rem",
@@ -61,8 +60,8 @@ const IndexPage = () => (
       margin:"2rem auto",
       textShadow: " 2px 2px 4px #000000"
     }}>
-<img style={{margin:0, borderRadius: '10px'}} src={image1}/>
 <p>The success of ICIs in cancer therapy has highlighted the important role in disease progression not just of cancer cells themselves but also of the other cells and constituents that comprise a tumor. Examples of these non-cancerous components of a tumor include the extracellular matrix, immune cells, specialized fibroblasts, and endothelial cells. Collectively, these non-cancerous tumor components comprise what is termed the tumor microenvironment (TME)</p>
+<img style={{margin:0, borderRadius: '10px'}} src={image1}/>
       </div>
       <div     style={{
       padding: ".5rem 2.5rem",
