@@ -5,7 +5,7 @@ export const COLORS = {
     offBlack:"#343434",
     gray: "#A0A4A6",
     babyGreen: '#013220',
-    green: "#024b30",
+    green: "#026440",
   }
   
   export const GRADIENT = `linear-gradient(to top right, ${COLORS.babyGreen}, ${
