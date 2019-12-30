@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Nashoba Biotechnology`,
-    description: `Gatsby starter using styled-components`,
+    description: `Precision Glyco-editing of the Tumor Microenvironment to Create a New Class of Anti-cancer Drugs `,
     author: `@blakenoll`,
   },
   plugins: [
