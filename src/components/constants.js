@@ -5,9 +5,11 @@ export const COLORS = {
     offBlack:"#343434",
     gray: "#A0A4A6",
     babyGreen: '#71BC78',
-    green: "#2BC96D",
+    green: "#0ca649",
   }
   
-  export const GRADIENT = color.green
+  export const GRADIENT = `linear-gradient(to top right, ${COLORS.babyGreen}, ${
+    COLORS.green
+  })`
   
   export const BORDER_RADIUS = "10px"
