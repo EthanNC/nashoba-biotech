@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import { Container, Row, Column } from "../components/layoutComponents"
+import { Container, Row} from "../components/layoutComponents"
 import SEO from "../components/seo"
 import Founder from "../components/founder"
 
@@ -12,12 +12,12 @@ import PM from "../images/PM.png"
 import JC from "../images/JC.png"
 import RC from "../images/RC.png"
 
-const About = () => (
+const Founders = () => (
   <Layout>
     <Container>
-      <SEO title="Page two" />
-      <div style={{ textAlign: "center", maxWidith:700}}>
-    <h2>Founders</h2>
+      <SEO title="Founders" />
+    <div style={{ textAlign: "center", maxWidith:700}}>
+    <h1>Meet Our Founders</h1>
     <Row>
       {/* <Column> */}
         <Founder name="Ray Camphausen" title="CEO" image={RC} link="https://www.linkedin.com/in/ray-camphausen-0173352/"/>
@@ -48,4 +48,4 @@ const About = () => (
   </Layout>
 )
 
-export default About
+export default Founders
