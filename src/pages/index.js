@@ -16,9 +16,9 @@ import image5 from '../images/about_image_5.png'
 const IndexPage = () => (
   <Layout>
     <Container>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO title="Home" keywords={[`Drug`, `Tumor Microenvironment`, `Cancer`, `Biotechnology`]} />
       <p style={{ textAlign: "center", maxWidth: 700 }}>
-      Precision Glyco-editing of the Tumor Microenvironment to Create a New Class of Anti-cancer Drugs 
+      Reprogramming of the Tumor Microenvironment to Create a New Class of Anti-cancer Drugs 
       </p>
     <div style={{ textAlign: "center", maxWidth: 700 }}>
     {/* <img style={{margin:0, borderRadius: '10px'}} src={image1}/> */}
