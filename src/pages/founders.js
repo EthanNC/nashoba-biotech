@@ -15,29 +15,29 @@ import RC from "../images/RC.png"
 const Founders = () => (
   <Layout>
     <Container>
-      <SEO title="Founders" />
+    <SEO title="Founders" />
     <div style={{ textAlign: "center", maxWidith:700}}>
-    <h1>Meet Our Founders</h1>
+    <h2>Meet Our Founders</h2>
     <Row>
       {/* <Column> */}
-        <Founder name="Ray Camphausen" title="CEO" image={RC} link="https://www.linkedin.com/in/ray-camphausen-0173352/"/>
+        <Founder name="Ray Camphausen" title="CEO" image={RC} link="RC"/>
       {/* </Column> */}
       {/* <Column> */}
-        <Founder name="Patrick Michaud" title="COO" image={PM} link="https://www.linkedin.com/in/patrick-michaud-2489a126/"/>
+        <Founder name="Patrick Michaud" title="COO" image={PM} link="PM"/>
       {/* </Column> */}
     </Row>
 
     <Row> 
       {/* <Column> */}
-        <Founder name="Dale Cumming" title="CSO" image={DC} link="https://www.linkedin.com/in/dalecumming"/>
+        <Founder name="Dale Cumming" title="CSO" image={DC} link="DC"/>
       {/* </Column> */}
       {/* <Column> */}
-        <Founder name="Rajan N. Shah" title="CCO" image={RS} link="https://www.linkedin.com/in/rajanglyco/"/>
+        <Founder name="Rajan N. Shah" title="CCO" image={RS} link="RS"/>
       {/* </Column> */}
     </Row>
 
     <Row> 
-        <Founder name="Jeremy P. Carver" title="Chair, BoD" image={JC} link="https://www.linkedin.com/in/jeremy-carver-441a696/"/>
+        <Founder name="Jeremy P. Carver" title="Chair, BoD" image={JC} link="JC"/>
     </Row>
  
 

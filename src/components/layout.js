@@ -6,6 +6,8 @@ import { MainWrapper } from "./layoutComponents"
 import Header from "./header"
 import Footer from "./footer"
 import Logo from "../images/logo.png"
+
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -19,14 +21,15 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        
         <MainWrapper>
           <Header siteTitle={data.site.siteMetadata.title} />
           <div
       style={{
         backgroundImage: `url(${Logo})`,
         position: "Fixed",
-        align: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment:"fixed",
+        backgroundPosition: `center top`,
         top: 0,
         zIndex: -5,
         height: "100vh",
